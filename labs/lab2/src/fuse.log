@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/LAB2/Top_Level_Top_Level_sch_tb_isim_beh.exe -prj D:/LAB2/Top_Level_Top_Level_sch_tb_beh.prj work.Top_Level_Top_Level_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/LAB2/testbench.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "D:/LAB2/Transition_Logic.vhd" into library work
+Parsing VHDL file "D:/LAB2/OutPutLogic.vhd" into library work
+Parsing VHDL file "D:/LAB2/Light_Controller.vhf" into library work
+Parsing VHDL file "D:/LAB2/Top_Level.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Top_Level_Top_Level_sch_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture out_logic_arch of entity Out_Logic_intf [out_logic_intf_default]
+Compiling architecture transition_logic_arch of entity Transition_Logic_intf [transition_logic_intf_default]
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture behavioral of entity Light_Controller_MUSER_Top_Level [light_controller_muser_top_level...]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture cc8re_hxilinx_top_level_v of entity CC8RE_HXILINX_Top_Level [cc8re_hxilinx_top_level_default]
+Compiling architecture cc16re_hxilinx_top_level_v of entity CC16RE_HXILINX_Top_Level [cc16re_hxilinx_top_level_default]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture behavioral of entity Top_Level [top_level_default]
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable D:/LAB2/Top_Level_Top_Level_sch_tb_isim_beh.exe
+Fuse Memory Usage: 53824 KB
+Fuse CPU Usage: 592 ms

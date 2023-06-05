@@ -1,0 +1,46 @@
+V3 32
+FL D:/Lab/LAB2/Light_Controller.vhf 2022/06/03.10:33:53 P.20131013
+FL D:/Lab/LAB2/OutPutLogic.vhd 2022/05/18.14:13:45 P.20131013
+FL D:/Lab/LAB2/Top_Level.vhf 2022/06/05.14:21:23 P.20131013
+FL D:/Lab/LAB2/Transition_Logic.vhd 2022/05/18.14:27:12 P.20131013
+FL D:/LAB2/Light_Controller.vhf 2022/06/03.10:33:53 P.20131013
+EN work/Light_Controller 1682876475 FL D:/LAB2/Light_Controller.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Light_Controller/BEHAVIORAL 1682876476 \
+      FL D:/LAB2/Light_Controller.vhf EN work/Light_Controller 1682876475 \
+      CP Out_Logic_intf CP Transition_Logic_intf CP FDC
+FL D:/LAB2/OutPutLogic.vhd 2023/04/30.20:26:26 P.20131013
+EN work/Out_Logic_intf 1682876463 FL D:/LAB2/OutPutLogic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Out_Logic_intf/Out_Logic_arch 1682876464 \
+      FL D:/LAB2/OutPutLogic.vhd EN work/Out_Logic_intf 1682876463
+FL D:/LAB2/Top_Level.vhf 2023/04/30.20:00:00 P.20131013
+EN work/CC8RE_HXILINX_Top_Level 1682876467 FL D:/LAB2/Top_Level.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CC8RE_HXILINX_Top_Level/CC8RE_HXILINX_Top_Level_V 1682876468 \
+      FL D:/LAB2/Top_Level.vhf EN work/CC8RE_HXILINX_Top_Level 1682876467
+EN work/CC16RE_HXILINX_Top_Level 1682876469 \
+      FL D:/LAB2/Top_Level.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CC16RE_HXILINX_Top_Level/CC16RE_HXILINX_Top_Level_V 1682876470 \
+      FL D:/LAB2/Top_Level.vhf EN work/CC16RE_HXILINX_Top_Level 1682876469
+EN work/Light_Controller_MUSER_Top_Level 1682876471 \
+      FL D:/LAB2/Top_Level.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Light_Controller_MUSER_Top_Level/BEHAVIORAL 1682876472 \
+      FL D:/LAB2/Top_Level.vhf EN work/Light_Controller_MUSER_Top_Level 1682876471 \
+      CP Out_Logic_intf CP Transition_Logic_intf CP FDC
+EN work/Top_Level 1682876473 \
+      FL D:/LAB2/Top_Level.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Top_Level/BEHAVIORAL 1682876474 \
+      FL D:/LAB2/Top_Level.vhf EN work/Top_Level 1682876473 \
+      CP Light_Controller_MUSER_Top_Level CP OR2 CP CC8RE_HXILINX_Top_Level \
+      CP CC16RE_HXILINX_Top_Level CP FD
+FL D:/LAB2/Transition_Logic.vhd 2022/05/18.14:27:12 P.20131013
+EN work/Transition_Logic_intf 1682876465 FL D:/LAB2/Transition_Logic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Transition_Logic_intf/Transition_Logic_arch 1682876466 \
+      FL D:/LAB2/Transition_Logic.vhd EN work/Transition_Logic_intf 1682876465
