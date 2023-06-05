@@ -1,5 +1,0 @@
-[Inputs]
-=IN_BUS[2:0]=
-[Outputs]
-=OUT_BUS[7:0]=
-[BiDir]

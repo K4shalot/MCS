@@ -1,6 +1,0 @@
-vhdl work "Transition_Logic.vhd"
-vhdl work "OutPutLogic.vhd"
-vhdl work "Light_Controller.vhf"
-vhdl work "Top_Level.vhf"
-verilog work "testbench.v"
-verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,4 +1,0 @@
-vhdl work "Transition_Logic.vhd"
-vhdl work "OutPutLogic.vhd"
-vhdl work "Light_Controller.vhf"
-vhdl work "Top_Level.vhf"

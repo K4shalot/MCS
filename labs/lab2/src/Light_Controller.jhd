@@ -1,5 +1,0 @@
-MODULE Light_Controller
-	SUBMODULE Out_Logic_intf
-		INSTANCE XLXI_1
-	SUBMODULE Transition_Logic_intf
-		INSTANCE XLXI_2
